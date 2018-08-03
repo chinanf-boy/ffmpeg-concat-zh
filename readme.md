@@ -105,8 +105,8 @@ npm install -g ffmpeg-concat
     -V, --version                         输出版本号
     -o, --output <output>                 要写入的mp4文件的路径（默认值：out.mp4）
     -t, --transition-name <name>          要使用的gl-transition名称（默认值：淡入淡出）
-    -d, --transition-duration <duration>  转换持续时间以毫秒为单位（默认值：500）
-    -T, --transitions <file>              json文件加载转换
+    -d, --transition-duration <duration>  过渡持续时间以毫秒为单位（默认值：500）
+    -T, --transitions <file>              json文件加载 过渡配置
     -f, --frame-format <format>           用于临时帧图像的格式（默认值：raw）
     -c, --concurrency <number>            要并行处理的视频数量（默认值：4）
     -C, --no-cleanup-frames               禁用清除临时帧图像
@@ -161,7 +161,7 @@ await concat({
     {
       name: 'directionalWarp',
       duration: 500,
-      // 将自定义参数传递给转换
+      // 将自定义参数传递给过渡
       params: { direction: [ 1, -1 ] }
     },
     {
