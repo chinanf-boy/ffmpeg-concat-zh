@@ -7,14 +7,22 @@
 
 「 拼接 一组视频.,通过使用 ffmpeg和 性感的 OpenGL 过渡 (动画效果) 」
 
-[更多其他中文翻译](https://github.com/chinanf-boy/chinese-translate-list)
+[more]: https://github.com/chinanf-boy/chinese-translate-list
 
 ---
 
-### 原文 commit / 日期
+## 校对 ✅
 
-- `commit` https://github.com/transitive-bullshit/ffmpeg-concat/tree/a229bea669c8955c373e32ca35b40c852edefcc8
-- ⏰ 2018 7.16
+<!-- doc-templite START generated -->
+<!-- time = '2018 7.16' -->
+
+翻译的原文 | 与日期 | 最新更新 | 更多
+---|---|---|---
+[commit] | ⏰ 2018 7.16 | ![last] | [中文翻译][more]
+<!-- doc-templite END generated -->
+
+[last]: https://img.shields.io/github/last-commit/transitive-bullshit/awesome-puppeteer.svg
+[commit]:  https://github.com/transitive-bullshit/ffmpeg-concat/tree/a229bea669c8955c373e32ca35b40c852edefcc8
 
 ### 贡献
 
